@@ -1,0 +1,108 @@
+/* Remove margens padrão */
+* {
+    margin: 0;
+}
+
+/* Define a imagem de fundo, repetindo ela e padroniza a fonte de escrita */
+body{
+    background-image: url(imagens/gradiente.png);
+    background-repeat: repeat;
+    font-family: Arial;
+}
+
+/* Centraliza títulos */
+h1, h2, h3{
+    text-align: center;
+}
+
+/* Define espaçamento interno dos paragráfos */
+p{
+    padding: 1.5%;
+}
+
+/* Remove decoração padrão dos links */
+a {
+    text-decoration: none;
+}
+
+/* Coloca borda superior e inferior no menu de navegaçãp */
+.menu {
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    padding: 1.5%;
+}
+
+/* Deixa os links com a cor branca */
+.cabeça{
+    color: white;
+    padding: 1%;
+}
+
+/* Arruma foto */
+.perfil{
+    padding: 1%;
+    width: 30%;
+}
+
+/* Estiliza texto */
+.textop{
+    padding: 1%;
+    padding-top: 0;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+
+/* Centraliza linha */
+.cent{
+    display: flex;
+    justify-content: center;
+}
+
+/* Padroniza imagens */
+.fotop{
+    width: 10%;
+    padding: 1%;
+}
+
+/* Deixa texto em itálico */
+.it{
+    font-style: italic;
+    padding: 1%;
+}
+
+/* Para citações */
+.cita{
+    width: 20%;
+    padding: 2%;
+    padding-top: 1%;
+}
+
+/* Espaçamento */
+#hobb{
+    padding: 2%;
+}
+
+.desc{
+    padding-top: 0;
+    padding-bottom: 3%;
+}
+
+.esp{
+    width: 20%;
+}
+
+/* Caixa para o formulário */
+form{
+    border: solid 3px black;
+    padding: 2%;
+}
+
+/* Para assinatura */
+span{
+    border-top: solid black 2px;
+    border-right: solid black 2px;
+    border-radius: 50%;
+    padding: 1%;
+    text-align: center;
+}
